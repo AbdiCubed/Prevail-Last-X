@@ -757,7 +757,7 @@ x2 = Create("Frame", {Parent=Tab4Frame,Name="Hold",BackgroundTransparency=1,Posi
 PF4 = Create("TextLabel",{Text="Current Prefix: "..Prefix,Name="Prefix",Parent=x2,TextColor3=Primary,BackgroundColor3=Background,BorderColor3=Background,Position=UDim2.new(0.69,0,-0.08,0),Size=UDim2.new(0,120,0,14,0),Font=Enum.Font.SourceSansSemibold,FontSize=4})
 x8 = Create("TextLabel",{Text="Chat Commands",Name="Title",Parent=x2,TextColor3=Primary,BackgroundColor3=Background,BorderColor3=Background,Position=UDim2.new(0.3125,0,-0.0625,0),Size=UDim2.new(0,120,0,20,0),Font=Enum.Font.SourceSansSemibold,FontSize=6})
 
-wait(0.01) -- Setups
+wait(0.1) -- Setups
 if LP.TeamColor.Name == "Medium stone grey" and LP.PlayerGui.Home.intro.Visible then
 	game.Workspace.Remote.loadchar:InvokeServer(LP, "Bright orange")
 end
@@ -773,7 +773,7 @@ MsgPX.Name = "MsgPX"
 Text = Instance.new("TextBox")
 
 KEY = {
-	RapidFire = "e",
+	RapidFire = "h",
 	UI = "e",
 	KillAura = "k",
 	Respawnv2 = "l",
@@ -781,8 +781,8 @@ KEY = {
 	Invisible = "n"
 }
 TXT = {
-	RapidFire = z,
-	UI = z3,
+	RapidFire = z3,
+	UI = z,
 	KillAura = z4,
 	Respawnv2 = z5,
 	Noclip = z6,
